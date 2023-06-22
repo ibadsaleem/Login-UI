@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  otp:string='';
   constructor() {}
-
+  otpInput=(e:string)=>{
+    this.otp=e;
+  }
 }
